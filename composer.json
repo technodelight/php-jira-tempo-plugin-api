@@ -1,5 +1,5 @@
 {
-    "name": "technodelight/php-jira-tempo-plugin",
+    "name": "technodelight/php-jira-tempo-plugin-api",
     "description": "PHP API layer for Tempo TimeSheets",
     "type": "library",
     "require": {
