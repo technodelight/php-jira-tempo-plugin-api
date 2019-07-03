@@ -1,0 +1,26 @@
+{
+    "name": "technodelight/php-jira-tempo-plugin",
+    "description": "PHP API layer for Tempo TimeSheets",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zsolt Gál",
+            "email": "zenc@zenc.hu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Technodelight\\Tempo2\\": "src"
+        }
+    },
+    "scripts": {
+        "test": [
+            "find src -type f -name \"*.php\" | xargs -n1 php -l",
+            "composer diagnose"
+        ]
+    }
+}
